@@ -12,7 +12,7 @@ You just need to open the `index.html` file in your browser.
 If you need to edit the `/styles/main.scss` file, make sure you've installed [Sass](https://sass-lang.com/install/). Then run:
 
 ```
-$ sass --no-source-map --watch styles/main.scss main.css
+$ sass --no-source-map --watch styles/main.scss main.css --style=compressed
 ```
 
 ## Future improvements
